@@ -8,21 +8,21 @@ function App() {
   
   return (
     <>
-      <div className='container1'>
+      <div className='container'>
         <h3>Hello, I am Riyad</h3>
         <p>Graphic Designer, UI/UX Designer , Web Designer</p>
         <button className='btn'>Get in Touch</button>
       </div>
 
-<div className='container2'> 
-<img className='container2-image' src={github} alt="img" />
-<img className='container2-image' src={twitter} alt="img" />
-<img className='container2-image' src={dribble} alt="img" />
+<div className='main'> 
+<img className='main-image' src={github} alt="img" />
+<img className='main-image' src={twitter} alt="img" />
+<img className='main-image' src={dribble} alt="img" />
 </div>
 
 
-<div className='container3'>
-<img className='container3-image' src={image} alt="img" />
+<div className='riad'>
+<img className='riad-image' src={image} alt="img" />
 </div>
 
     </>
